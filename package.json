@@ -2,8 +2,9 @@
   "name": "more-markdown",
   "version": "0.0.1",
   "description": "Another electron based markdown editor",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,8 @@
   "homepage": "https://github.com/Kvanrooyen/more-markdown#readme",
   "dependencies": {
     "electron": "^18.2.4"
+  },
+  "devDependencies": {
+    "electron-reloader": "^1.2.3"
   }
 }
